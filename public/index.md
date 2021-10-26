@@ -1,6 +1,6 @@
 # Markdown
 
-Cómo armar **documentos** y **presentaciones** sin _editores complicados_
+Cómo armar **documentos** y **presentaciones** sin _editores complicados_.
 
 ![Logo](img/logo-redondeado.png) &nbsp; &nbsp; ![Logo UnaHur](img/unahur-informatica-logo.png)
 
@@ -55,7 +55,46 @@ Aunque se pueden hacer algunas cosas con el teclado, suelen estar diseñadas dá
 
 ## Texto plano
 
-<!-- TODO: contar que antes todo era así -->
+Cuenta la leyenda que allá lejos y hace tiempo, el _mouse_ no existía y las computadoras se manejaban **únicamente con el teclado**. 😲 ⌨️
+
+Lógicamente, las interfaces de usuarix **se basaban en texto**, y "la máquina" estaba mucho más presente en lo que hacíamos.
+
+--
+
+A quienes programamos (aunque eso también se va desdibujando), nos es habitual la idea de que editamos **código fuente** y que luego eso _se transforma_ en algún tipo de **resultado** que la computadora puede interpretar.
+
+```plantuml
+!$BGCOLOR = "transparent"
+!theme plain
+
+hide empty members
+
+skinparam state {
+  StartColor MediumBlue
+  EndColor Red
+}
+
+[*] -right-> Compilación
+Compilación -right-> [*]
+```
+
+A ese proceso de transformación lo llamamos **compilación**.
+
+--
+
+Ese código fuente, lógicamente, debe estar escrito en algún lenguaje con reglas rígidas para poder ser transformado por un programa.
+
+Y acá entra **Markdown**: un lenguaje _de marcado_, que sirve para escribir documentos y varias cosas más.
+
+--
+
+Como **ejemplo**, este es el `código` que genera la diapositiva que estamos viendo ahora:
+
+![magia](img/magia.png)
+
+_Parece magia, pero en realidad es sencillo..._ 🤯
+
+--
 
 Se puede usar en cualquier dispositivo y transmitir por cualquier medio. Un `.txt` es texto plano, un mensajito de WhatsApp también (emojis incluidos).
 
@@ -67,19 +106,40 @@ Como ejemplo, esto veía cuando empecé a armar estas diapositivas.
 
 --
 
-<!-- TODO: captura de fuente / generado -->
-
---
-
-<!-- TODO: ventajas y desventajas -->
-
-<!-- TODO: prioridad (o únicamente) teclado -->
+| Ventajas                                           | Desventajas                                                          |
+| -------------------------------------------------- | -------------------------------------------------------------------- |
+| El estilo será siempre consistente.                | Hay que aprenderse la sintaxis.                                      |
+| Hay miles de herramientas distintas para editarlo. | Puede ser complejo encontrar otras personas que quieran incursionar. |
+| La simplicidad es una decisión de diseño.          | Para lograr diseños más complejos hay que acudir a extensiones.      |
 
 ===
 
 ## Sintaxis
 
-<!-- TODO: machete -->
+```markdown
+# Machete
+
+## Formato básico
+
+Con dos asteriscos se ponen **negritas**, con un guión bajo _cursivas_.
+También se pueden usar "acentos torcidos" para `texto monoespaciado`.
+
+## Listas
+
+- Sin numerar...
+- ...se hacen con...
+- ...un guión o un asterisco.
+
+1. Numeradas es con...
+2. ...el número seguido de...
+3. ...un punto.
+```
+
+--
+
+![](img/sintaxis/basica.png)
+
+--
 
 <!-- TODO: extendido con emojis -->
 

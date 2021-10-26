@@ -17,3 +17,10 @@
 .fullscreen code {
   max-height: fit-content !important;
 }
+
+.titulo-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

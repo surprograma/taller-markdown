@@ -23,6 +23,10 @@
     "prefix": "clase",
     "body": "<!-- .element: class=\"${1:una-clase}\" -->"
   },
+  "Agregar estilo": {
+    "prefix": "estilo",
+    "body": "<!-- .element: style=\"${1:tu-estilo}\" -->"
+  },
   "Pantalla completa": {
     "prefix": "fullscreen",
     "body": "<!-- .element: class=\"fullscreen\" -->"

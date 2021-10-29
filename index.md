@@ -6,7 +6,18 @@ Cómo armar **documentos** y **presentaciones** sin _editores complicados_.
 
 ===
 
-<!-- TODO: alguna encuesta inicial con Menti -->
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/embed/0f606b6c507ca13d80b601b713cabd77/c47521e6ea2b' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+<small>☝️ No cierren la página, que hay dos preguntas.</small>
+
+===
+
+## ¡Gracias a la comunidad Clementina!
+
+![](clementina.png)
+
+Si tienen Telegram y les interesa profundizar en software libre aplicado a la educación, no duden en unirse:
+https://t.me/Clementina_SHCL
 
 ===
 
@@ -96,11 +107,13 @@ _Parece magia, pero en realidad es sencillo..._ 🤯
 
 --
 
-Se puede usar en cualquier dispositivo y transmitir por cualquier medio. Un `.txt` es texto plano, un mensajito de WhatsApp también (emojis incluidos).
+Una gran virtud del texto plano es que se puede escribir en **cualquier dispositivo**, prácticamente desde **cualquier aplicación** y transmitir por cualquier medio.
+
+Un archivo `.txt` es texto plano, un mail sin formato también, un mensajito de WhatsApp o Telegram también (emojis incluidos).
 
 --
 
-Como ejemplo, esto veía cuando empecé a armar estas diapositivas.
+Como ejemplo, este era el paisaje que veía cuando empecé a armar estas diapositivas.
 
 ![sarmiento](img/sarmiento.jpg)
 
@@ -135,15 +148,100 @@ También se pueden usar "acentos torcidos" para `texto monoespaciado`.
 3. ...un punto.
 ```
 
+<!-- .element: class="fullscreen" -->
+
 --
 
 ![](img/sintaxis/basica.png)
 
 --
 
-<!-- TODO: extendido con emojis -->
+```markdown
+# Títulos
 
-<!-- TODO: extendido con matemática, diagramas, etc -->
+## Cada asterisco es un subnivel
+
+### Este es más chico
+
+#### Este ya casi parece texto común
+
+Esto es texto común.
+```
+
+![](img/sintaxis/titulos.png)
+
+--
+
+```markdown
+También se pueden poner [enlaces](https://unahur.edu.ar).
+
+Y con una sintaxis muy parecida, imágenes:
+
+![llamitas](img/llamitas.jpg)
+```
+
+![](img/sintaxis/enlaces.png)
+
+--
+
+```markdown
+En algunos lugares hay también soporte para emojis:
+:wave: :apple: :magnet:.
+
+| Las            | tablas                  |
+| -------------- | ----------------------- |
+| Para mí son lo | más complicado de armar |
+
+Y, como digo yo:
+
+> Las citas son más sencillas.
+```
+
+![](img/sintaxis/tablas.png)
+
+--
+
+Cada programa puede después hacer extensiones, por ejemplo:
+
+````markdown
+`$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$`
+
+```plantuml
+[*] -right-> Compilación
+Compilación -right-> [*]
+```
+
+```js
+function esPar(numero) {
+  return numero % 2 === 0;
+}
+```
+````
+
+--
+
+`$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$`
+
+```plantuml
+[*] -right-> Compilación
+Compilación -right-> [*]
+```
+
+```js
+function esPar(numero) {
+  return numero % 2 === 0;
+}
+```
+
+===
+
+## 🦾 Manos a la obra
+
+> Armá un texto para publicar en Docutopia, el tema es libre.
+
+Si tenés ganas, compartilo en el chat así lo vemos.
+
+https://bit.ly/docutopiamd
 
 ===
 
@@ -198,21 +296,39 @@ Algunas de las cosas que la herramienta permite:
 
 ===
 
-## 🦾 Manos a la obra
-
-<!-- TODO: ejercicio 1 - armar un PDF o un texto para publicar... tema libre -->
-
-===
-
 ## Diapositivas
 
-<!-- TODO: contar cómo se hacen, con los ---, que se usa Reveal y cómo verlas -->
+Esto sí es recontra dependiente de la herramienta, aunque de fondo todas las que indagué usan [reveal.js](https://revealjs.com/).
+
+Lo que varía es el **separador** que se usa para diferenciar las diapositivas, y la forma de **establecer configuraciones**.
+
+--
+
+En Docutopia, la sintaxis es esta:
+
+```markdown
+# Un título
+
+---
+
+## Otra diapositiva
+
+Con texto blabla.
+
+---
+
+Esta es otra más
+```
 
 ===
 
 ## 🦾 Manos a la obra
 
-<!-- TODO: ejercicio 2 - armar diapositivas... ¿qué aprendiste de MD? -->
+> Armá una diapositiva como si quisieras convencer a un/a colega para que use Markdown.
+
+Si tenés ganas, compartila en el chat así lo vemos.
+
+https://bit.ly/diapomd
 
 ===
 
@@ -253,7 +369,7 @@ Soporta todas las funcionalidades, excepto los enlaces.
 
 ===
 
-<!-- TODO: alguna encuesta final con Menti... qué aprendiste, para qué lo usarías, etc -->
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/embed/35fcdaf1d13a309d44fb4307967704af/1449fc0a6a3b' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
 
 ===
 
